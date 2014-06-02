@@ -63,6 +63,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
 				startActivity(intent);
 				break;
 			}
+			intent.putExtra("name", inputMsg);
+			startActivity(intent);
 		}
 	}
 
